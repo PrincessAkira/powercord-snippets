@@ -1,0 +1,22 @@
+.userPopout-3XzG_A
+{
+animation: load_in 1s forwards;
+}
+  
+@keyframes load_in {
+    from {
+        opacity: 0;
+      margin-right: 100px;
+    }
+
+    to {
+        opacity: 0.4;
+      margin-right: 50px;
+    }
+
+    to {
+        opacity: 1;
+      margin-right: 0px;
+    }
+
+}
