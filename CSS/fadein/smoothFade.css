@@ -1,0 +1,46 @@
+.inner-1ilYF7 {
+    height: 43%;
+    width: 28%;
+    position: center;
+    animation: loadinProfile 1s forwards;
+    
+  }
+  
+  /* Enable for a bit lag but blur behind profile
+  
+  .backdrop-1wrmKB {
+    backdrop-filter: blur(5px);
+    
+  }
+  
+  */
+  
+  .activityProfile-2bJRaP, .activity-1ythUs, .userInfoSectionHeader-CBvMDh, .note-QfFU8y {
+    display: none;
+    
+  }
+  
+  @keyframes loadinProfile {
+    
+    from {
+      
+      margin-left: 500px;
+      opacity: 0.0;
+    }
+    to {
+      
+     margin-left: 250px;
+      opacity: 0.3;
+    }
+    to {
+      
+      margin-left: 140px;
+      opacity: 0.6;
+    }
+    to {
+      
+      margin-left: 0px;
+      opacity: 1;
+    }
+  }
+  
