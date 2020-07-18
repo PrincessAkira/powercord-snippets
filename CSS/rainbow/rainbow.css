@@ -1,0 +1,43 @@
+/* Made by Yukii#6969 */
+/* This makes the Upload/Username */
+
+.nameTag-2IFDfL,
+.nameTag-m8r81H,
+.username-2b1r56,
+.username-3gJmXY,
+.discriminator-xUhQkU,
+.headerTagNoNickname-ENx6no,
+.headerTag-2pZJzA,
+.size14-3iUx6q,
+.size16-14cGz5,
+.nameTag-m8r81H {
+    animation: chromaYeet 6s linear infinite;
+}
+
+.user-details-text,
+.user-details-center,
+.textRow-19NEd_ {
+    animation: chromaYeet 6s linear infinite;
+}
+
+@keyframes chromaYeet {
+    from {
+        color: #6666ff;
+    }
+
+    10% {
+        color: #0099ff;
+    }
+
+    50% {
+        color: #00ff00;
+    }
+
+    75% {
+        color: #ff3399;
+    }
+
+    100% {
+        color: #6666ff;
+    }
+}
