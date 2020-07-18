@@ -5,6 +5,6 @@ This turns the Username, Upload and some infos for some BD  Plugins into a Chrom
 
 How to import:
 
-```@import url('');
+```@import url('https://raw.githubusercontent.com/PrincessAkira/powercord-snippets/master/CSS/rainbow/rainbow.css');```
 
 ![Test](https://sexin.church/siMz6Fmosz.gif?key=bGN2tk396jq9p8)
