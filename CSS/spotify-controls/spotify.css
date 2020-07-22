@@ -1,119 +1,141 @@
-.powercord-spotify, .powercord-spotify * {
+.powercord-spotify,
+.powercord-spotify * {
     transition: 0.6s ease-in-out;
-  }
-  
-  .powercord-spotify {
-      height: 68px;
-      width: 221px;
-     background: inherit;
-     background: var(--background-floating);
-      margin-left: 4.2%;
-  margin-top: 8px;
+}
+
+.powercord-spotify {
+    height: 68px;
+    width: 221px;
+    background: inherit;
+    background: var(--background-floating);
+    margin-left: 4.2%;
+    margin-top: 8px;
     margin-bottom: 8px;
-      border-radius: 34px;
-  }
-  .powercord-spotify .spotify-seek-bar {
-      height: 3px;
-  left: 26px;
-      width: 160px;
-      border-radius: 5px !important;
-  }
-  .powercord-spotify .spotify-seek {
-      border-radius: 10px !important;
-      overflow: hidden;
-  }
-  .powercord-spotify .container-3baos1 {
-      background: none;
-  }
-  .powercord-spotify:hover {
-      height: 238px;
-  }
-  .powercord-spotify:hover .spotify-seek-bar {
-      height: 8px !important;
-      display: none;
-  }
-  .powercord-spotify:hover .container-3baos1 {
-  
-      background: none;
-      height: 200px;
-  }
-  .spotify-seek-bar-cursor {
-      background: #fff !important;
-      border: none !important;
-      height: 10px !important;
-      border-radius: 5px !important;
-      width: 5px !important;
-  }
-  .powercord-spotify:hover .avatarWrapper-2yR4wp img {
-      border-radius: 10px !important;
-  pointer-events: none;
-  border-color: black;
-      height: 200px !important;
-      width: 220px !important;
-  }
-  .powercord-spotify:hover .avatarWrapper-2yR4wp {
-      border-radius: 10px;
-      height: 200px;
-      width: 220px !important;
-      overflow: hidden;
-      margin-right: 0px !important;
-  }
-  .powercord-spotify:hover .container-3baos1 {
-      padding-left: 0px !important;
-      padding-right: 0px !important;
-  }
-  .powercord-spotify:hover .nameTag-3uD-yy, .horizontal-1ae9ci .powercord-spotify:hover {
-      position:  absolute !important;
-  }
-  .spotify-buttons {
+    border-radius: 34px;
+}
+
+.powercord-spotify .spotify-seek-bar {
+    height: 3px;
+    left: 26px;
+    width: 160px;
+    border-radius: 5px !important;
+}
+
+.powercord-spotify .spotify-seek {
+    border-radius: 10px !important;
+    overflow: hidden;
+}
+
+.powercord-spotify .container-3baos1 {
+    background: none;
+}
+
+.powercord-spotify:hover {
+    height: 238px;
+}
+
+.powercord-spotify:hover .spotify-seek-bar {
+    height: 8px !important;
     display: none;
-    }
-  
-  .powercord-spotify:hover .spotify-buttons {
-  display: none;
-  }
-  .powercord-spotify:hover .spotify-extra-controls {
-  display: none;
-  }
-  
-  .powercord-spotify:hover .nameTag-3uD-yy {     
-      bottom: 18px;
-      width: 220px;
-  }
-  .powercord-spotify:hover .nameTag-3uD-yy {
-      height: 11px !important;
-  left: 5px;
-  }
-  .powercord-spotify:hover .spotify-title {
-      bottom: 65px;
-  pointer-events: none;
-      left: 14px;
-      position: relative;
-      width: 200px;
-  }
-  
-  .powercord-spotify:hover .spotify-title .title-eS5yk3 {
-      text-align: center;
-  }
-  .powercord-spotify:hover .spotify-artist {
-      position: absolute;
-  pointer-events: none;
-      bottom: 45px;
-      width: 190px;
-      left: 20px;
-      text-align: center;
-  }
-  .powercord-spotify:hover .horizontal-1ae9ci {
-      bottom: 10px;
-      left: 71px;
-  }
-  .panels-j1Uci_ {
-      background: none;
-  left: 70px;
-  }
-  .container-3baos1 {
-      background: var(--background-secondary-alt);
-  }
-  .spotify-seek-duration {
-  display: none;
-   }
+}
+
+.powercord-spotify:hover .container-3baos1 {
+
+    background: none;
+    height: 200px;
+}
+
+.spotify-seek-bar-cursor {
+    background: #fff !important;
+    border: none !important;
+    height: 10px !important;
+    border-radius: 5px !important;
+    width: 5px !important;
+}
+
+.powercord-spotify:hover .avatarWrapper-2yR4wp img {
+    border-radius: 10px !important;
+    pointer-events: none;
+    border-color: black;
+    height: 200px !important;
+    width: 220px !important;
+}
+
+.powercord-spotify:hover .avatarWrapper-2yR4wp {
+    border-radius: 10px;
+    height: 200px;
+    width: 220px !important;
+    overflow: hidden;
+    margin-right: 0px !important;
+}
+
+.powercord-spotify:hover .container-3baos1 {
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+}
+
+.powercord-spotify:hover .nameTag-3uD-yy,
+.horizontal-1ae9ci .powercord-spotify:hover {
+    position: absolute !important;
+}
+
+.spotify-buttons {
+    display: none;
+}
+
+.powercord-spotify:hover .spotify-buttons {
+    display: none;
+}
+
+.powercord-spotify:hover .spotify-extra-controls {
+    display: none;
+}
+
+.powercord-spotify:hover .nameTag-3uD-yy {
+    bottom: 18px;
+    width: 220px;
+}
+
+.powercord-spotify:hover .nameTag-3uD-yy {
+    height: 11px !important;
+    left: 5px;
+}
+
+.powercord-spotify:hover .spotify-title {
+    bottom: 65px;
+    pointer-events: none;
+    left: 14px;
+    position: relative;
+    width: 200px;
+}
+
+.powercord-spotify:hover .spotify-title .title-eS5yk3 {
+    text-align: center;
+}
+
+.powercord-spotify:hover .spotify-artist {
+    position: absolute;
+    pointer-events: none;
+    bottom: 45px;
+    width: 190px;
+    left: 20px;
+    text-align: center;
+}
+
+.powercord-spotify:hover .horizontal-1ae9ci {
+    bottom: 10px;
+    left: 71px;
+}
+
+.panels-j1Uci_ {
+    background: none;
+    left: 70px;
+}
+
+.container-3baos1 {
+    background: var(--background-secondary-alt);
+}
+
+.spotify-seek-duration {
+    display: none;
+}
