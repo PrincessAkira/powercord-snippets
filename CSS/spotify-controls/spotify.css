@@ -8,7 +8,8 @@
      background: inherit;
      background: var(--background-floating);
       margin-left: 4.2%;
-    margin-bottom: 10px;
+  margin-top: 5px;
+    margin-bottom: 5px;
       border-radius: 34px;
   }
   .powercord-spotify .spotify-seek-bar {
@@ -32,6 +33,7 @@
       display: none;
   }
   .powercord-spotify:hover .container-3baos1 {
+  
       background: none;
       height: 200px;
   }
@@ -63,11 +65,9 @@
   .powercord-spotify:hover .nameTag-3uD-yy, .horizontal-1ae9ci .powercord-spotify:hover {
       position:  absolute !important;
   }
-  
-  /* Until found fix this is invis */
   .spotify-buttons {
-  display: none;
-  }
+    display: none;
+    }
   
   .powercord-spotify:hover .spotify-buttons {
   display: none;
@@ -117,3 +117,6 @@
   .spotify-seek-duration {
   display: none;
    }
+  .powercord-spotify .tooltip-2QfLtc {
+         display: none;
+     }
