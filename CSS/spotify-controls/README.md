@@ -8,5 +8,3 @@
 How to import:
 
 ```@import url('https://raw.githubusercontent.com/PrincessAkira/powercord-snippets/master/CSS/spotify-controls/spotify.css');```
-
-![Test](https://nuke.bayern/BubBKDCdkw.gif?key=vi2gZqSv2YjqH3)
