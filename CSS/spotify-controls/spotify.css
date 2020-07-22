@@ -44,6 +44,7 @@
   }
   .powercord-spotify:hover .avatarWrapper-2yR4wp img {
       border-radius: 10px !important;
+  pointer-events: none;
   border-color: black;
       height: 200px !important;
       width: 220px !important;
@@ -62,6 +63,10 @@
   .powercord-spotify:hover .nameTag-3uD-yy, .horizontal-1ae9ci .powercord-spotify:hover {
       position:  absolute !important;
   }
+  .spotify-buttons {
+  pointer-events: none;
+  }
+  
   .powercord-spotify:hover .spotify-buttons {
   display: none;
   }
@@ -79,6 +84,7 @@
   }
   .powercord-spotify:hover .spotify-title {
       bottom: 65px;
+  pointer-events: none;
       left: 14px;
       position: relative;
       width: 200px;
@@ -89,8 +95,10 @@
   }
   .powercord-spotify:hover .spotify-artist {
       position: absolute;
+  pointer-events: none;
       bottom: 45px;
-      width: 219px;
+      width: 190px;
+      left: 20px;
       text-align: center;
   }
   .powercord-spotify:hover .horizontal-1ae9ci {
@@ -107,7 +115,6 @@
   .spotify-seek-duration {
   display: none;
    }
-/* .tooltip-2QfLtc {
-       display: none;
-   }
-   */
+  .powercord-spotify .tooltip-2QfLtc {
+         display: none;
+     }
