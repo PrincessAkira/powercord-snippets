@@ -90,7 +90,7 @@
   .powercord-spotify:hover .spotify-artist {
       position: absolute;
       bottom: 45px;
-      width: 220px;
+      width: 219px;
       text-align: center;
   }
   .powercord-spotify:hover .horizontal-1ae9ci {
@@ -107,6 +107,6 @@
   .spotify-seek-duration {
   display: none;
    }
-   .powercord-spotify:hover .name-3_Dsmg .overflow-WK9Ogt {
+.tooltip-2QfLtc {
        display: none;
    }
