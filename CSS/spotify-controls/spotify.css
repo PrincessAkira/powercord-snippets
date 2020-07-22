@@ -63,8 +63,10 @@
   .powercord-spotify:hover .nameTag-3uD-yy, .horizontal-1ae9ci .powercord-spotify:hover {
       position:  absolute !important;
   }
+  
+  /* Until found fix this is invis */
   .spotify-buttons {
-  pointer-events: none;
+  display: none;
   }
   
   .powercord-spotify:hover .spotify-buttons {
