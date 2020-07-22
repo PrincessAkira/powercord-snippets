@@ -8,8 +8,8 @@
      background: inherit;
      background: var(--background-floating);
       margin-left: 4.2%;
-  margin-top: 5px;
-    margin-bottom: 5px;
+  margin-top: 8px;
+    margin-bottom: 8px;
       border-radius: 34px;
   }
   .powercord-spotify .spotify-seek-bar {
@@ -117,6 +117,3 @@
   .spotify-seek-duration {
   display: none;
    }
-  .powercord-spotify .tooltip-2QfLtc {
-         display: none;
-     }
