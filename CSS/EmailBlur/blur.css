@@ -1,0 +1,19 @@
+.selectable-2GY4I1 {
+    filter: blur(10px)
+  }
+
+  .selectable-2GY4I1:hover {
+    animation: unblur 0.5s forwards
+  }
+
+  @keyframes unblur {
+from {
+filter: blur(10px)
+}
+to {
+    filter: blur(5px)
+}
+to {
+    filter: blur(0px)
+}
+  }
