@@ -7,4 +7,4 @@
 
 How to import:
 
-```@import url('https://rawcdn.githack.com/PrincessAkira/powercord-snippets/2554aa4df1f4a84cf65e97ffd8ac2fbee77deb17/CSS/spotify-controls/spotify.css');```
+```@import url('https://rawcdn.githack.com/PrincessAkira/powercord-snippets/9718a957ba08ed6a0e3397445224233e636a6cd5/CSS/spotify-controls/spotify.css');```
