@@ -5,8 +5,8 @@
  * @version 1.0.0
  * @authorId 202740603790819328
  * @donate https://www.tipeeestream.com/princessakari/donation
- * @source https://raw.githubusercontent.com/mwittrien/BetterDiscordAddons/master/Themes/BasicBackground/BasicBackground.theme.css
- * @updateUrl https://raw.githubusercontent.com/mwittrien/BetterDiscordAddons/master/Themes/BasicBackground/BasicBackground.theme.css
+ * @source https://raw.githubusercontent.com/PrincessAkira/powercord-snippets/master/Themes/KDA/Yukii.theme.scss
+ * @updateUrl https://raw.githubusercontent.com/PrincessAkira/powercord-snippets/master/Themes/KDA/Yukii.theme.scss
  */
 
 :root {
@@ -305,12 +305,9 @@ body {
 }
 
 /*
- *
  * Copied from https://capnkitten.github.io/BetterDiscord/Themes/Translucence/css/source.css
- *	SUPPORTED PLUGINS
- *
  */
-/* SUPPORTED PLUGINS -> CharCounter */
+
 .charCounter-7fw40k {
     position: relative;
     z-index: 1;
@@ -331,8 +328,6 @@ body {
     font-weight: 500;
 }
 
-/* SUPPORTED PLUGINS -> EditUploads*/
-
 #EditUploadsToolbar {
     background-color: transparent;
 }
@@ -350,8 +345,6 @@ body {
     box-shadow: none !important;
 }
 
-
-/* SUPPORTED PLUGINS -> ServerSearch */
 .popoutRight-1veHKi.noArrow-2foL9g {
     overflow: hidden;
 }
