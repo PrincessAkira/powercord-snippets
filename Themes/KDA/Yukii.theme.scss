@@ -1,8 +1,35 @@
-/*
-* 
-*
-*
-*/
+/**
+ * @name KDA Theme
+ * @description Made with love by Yukii :3
+ * @author Azariel#0004
+ * @version 1.0.0
+ * @authorId 202740603790819328
+ * @donate https://www.tipeeestream.com/princessakari/donation
+ * @source https://raw.githubusercontent.com/mwittrien/BetterDiscordAddons/master/Themes/BasicBackground/BasicBackground.theme.css
+ * @updateUrl https://raw.githubusercontent.com/mwittrien/BetterDiscordAddons/master/Themes/BasicBackground/BasicBackground.theme.css
+ */
+
+:root {
+    --main-color: #f1f1f1;
+    --bg-src: url(https://i.imgur.com/YCvC1MW.png);
+    --transparent: transparent !important;
+    --top-font: 'Open Sans Condensed', sans-serif;
+    --background-primary: transparent !important;
+    --background-secondary: transparent !important;
+    --background-tertiary: transparent !important;
+    --background-secondary-alt: transparent !important;
+    --background-accent: transparent !important;
+    --background-floating: transparent !important;
+    --kda-margin: 30px;
+    --kda-color: rgba(0, 0, 0, 0.6587);
+    --kda-popout: rgba(0, 0, 0, 0.87);
+    --kda-border-size: 25px;
+    --channeltextarea-background: rgba(0, 0, 0, 0.87);
+    --scrollbar-auto-track: rgba(0, 0, 0, 0);
+    --scrollbar-auto-thumb: rgba(0, 0, 0, 0);
+    --scrollbar-thin-thumb: rgba(0, 0, 0, 0);
+    --kda-version: "1.0.0";
+}
 
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&display=swap');
 
@@ -20,15 +47,28 @@ body {
 .app-1q1i1E,
 .app-2rEoOp,
 .bg-h5JY_x,
-.inset-3sAvek,
 .outer-1AjyKL.interactive-3B9GmY,
 .topSectionPlaying-1J5E4n {
     background: none;
 }
-
-.theme-dark .outer-1AjyKL.active-1xchHY,
-.headerPlaying-j0WQBV {
+.outer-1AjyKL.active-1xchHY,
+.headerPlaying-j0WQBV,
+.inset-3sAvek {
     background: none !important;
+}
+
+.inset-3sAvek:hover {
+    background-color: rgba(0, 0, 0, 0.6587);
+}
+
+.outer-1AjyKL.interactive-3B9GmY:hover {
+    background-color: rgba(0, 0, 0, 0.6587);
+}
+
+.tooltipContent-bqVLWK {
+    background-color: rgba(0, 0, 0, 0.6587) !important;
+    text-align: center;
+    border-radius: var(--kda-border-size);
 }
 
 .body-3iLsc4,
@@ -43,10 +83,11 @@ body {
 
 .popout-38lTFE,
 .popouts-2bnG9Z {
-    background-color: var(--kda-popout);
+    background-color: var(--kda-popout) !important;
 }
 
 .header-2BwW8b,
+.footer-2gL1pp,
 .headerNormal-T_seeN {
     background: none !important;
 }
@@ -82,9 +123,8 @@ body {
     background-color: var(--kda-popout);
 }
 
-.layer-v9HyYc {
-    background-color: var(--kda-popout);
-    border-radius: 10px;
+.input-cIJ7To.focused-1mmYsC, .input-cIJ7To:focus {
+    border-color:  rebeccapurple !important;
 }
 
 .lookFilled-1Gx00P.colorGrey-2DXtkV,
@@ -95,7 +135,9 @@ body {
     border-radius: var(--kda-border-size);
 }
 
-.autocomplete-1vrmpx {
+.autocomplete-1vrmpx,
+.root-1gCeng,
+.modal-yWgWj- {
     background-color: rgba(0, 0, 0, 0.8) !important;
     border-radius: var(--kda-border-size);
 }
@@ -106,12 +148,39 @@ body {
 
 .authedApp-mj2Hmd,
 .connection-1fbD7X,
-.accountList-33MS45 {
+.accountList-33MS45,
+.container-enaOkj {
     background-color: rgba(0, 0, 0, 0.8);
     border-radius: var(--kda-border-size);
 }
 
-.popout_367,
+.uploadModal-2ifh8j,
+.footer-3mqk7D {
+    background-color: var(--kda-color) !important;
+    border: none !important;
+}
+
+.lookFilled-1Gx00P.colorBrand-3pXr91,
+.lookFilled-1Gx00P.colorBrand-3pXr91:hover {
+    background-color: rebeccapurple;
+}
+
+.option-96V44q:after {
+    border: none;
+    background: none !important;
+}
+
+.option-96V44q:hover {
+    border-radius: 20px;
+    border: none;
+}
+
+.menu-3sdvDG,
+.userPopout-3XzG_A {
+    background-color: rgba(0, 0, 0, 0.9) !important;
+    border-radius: var(--kda-border-size);
+}
+
 .container-3ayLPN {
     background-color: rgba(0, 0, 0, 0.8) !important;
     border-radius: var(--kda-border-size);
@@ -142,11 +211,7 @@ body {
 }
 
 .container-1D34oG {
-    background-color: none;
-}
-
-.interactive-3B9GmY {
-    background-color: red;
+    background: none !important;
 }
 
 .app-1q1i1E {
