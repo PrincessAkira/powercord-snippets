@@ -6,29 +6,6 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&display=swap');
 
-
-:root {
-    --main-color: #f1f1f1;
-    --bg-src: url(https://i.imgur.com/YCvC1MW.png);
-    --transparent: transparent !important;
-    --top-font: 'Open Sans Condensed', sans-serif;
-    --background-primary: transparent !important;
-    --background-secondary: transparent !important;
-    --background-tertiary: transparent !important;
-    --background-secondary-alt: transparent !important;
-    --background-accent: transparent !important;
-    --background-floating: transparent !important;
-    --kda-margin: 30px;
-    --kda-color: rgba(0, 0, 0, 0.6587);
-    --kda-popout: rgba(0, 0, 0, 0.87);
-    --kda-border-size: 25px;
-    --channeltextarea-background: rgba(0, 0, 0, 0.87);
-    --scrollbar-auto-track: rgba(0, 0, 0, 0);
-    --scrollbar-auto-thumb: rgba(0, 0, 0, 0);
-    --scrollbar-thin-thumb: rgba(0, 0, 0, 0);
-    --kda-version: "1.0.0";
-}
-
 body {
     background-color: var(--transparent);
 }
@@ -134,7 +111,8 @@ body {
     border-radius: var(--kda-border-size);
 }
 
-.popout_367 {
+.popout_367,
+.container-3ayLPN {
     background-color: rgba(0, 0, 0, 0.8) !important;
     border-radius: var(--kda-border-size);
 }
