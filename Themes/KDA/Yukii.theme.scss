@@ -73,13 +73,20 @@ body {
 }
 
 .body-3iLsc4,
-.footer-1fjuF6 {
+.footer-1fjuF6,
+.topSectionSpotify-1lI0-P {
     background: none !important;
 }
 
 
 .outer-1AjyKL.interactive-3B9GmY:hover {
     background-color: var(--kda-color);
+}
+
+.itemCard-v9viV7:hover, 
+.peopleListItem-2nzedh:hover {
+background-color: var(--kda-color) !important;
+border-radius: var(--kda-border-size);
 }
 
 .popout-38lTFE,
